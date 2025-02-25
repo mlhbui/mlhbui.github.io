@@ -1,0 +1,19 @@
+.timeline {
+	display: flex;
+	flex-direction: column;
+	padding-left: 7px;
+}
+
+.timeline_item {
+	display: flex;
+	margin-bottom: 25px;
+	align-items: center;
+} 
+
+.line {
+	flex: 0 0 5%;
+}
+
+.timeline_entry {
+	flex: 1;
+}

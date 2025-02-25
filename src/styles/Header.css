@@ -1,0 +1,22 @@
+.header {
+    color: white;
+    font-family: 'KronaOne', sans-serif;
+    position: relative;
+  }
+  
+  .name {
+    font-size: 64px;
+    text-shadow: 1px 5px 6px rgb(13, 24, 54);
+  }
+  
+  .title {
+    font-size: 24px;
+    text-shadow: 1px 5px 6px rgb(13, 24, 54);
+
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #BCC4D2;
+  }
+  

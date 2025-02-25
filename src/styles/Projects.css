@@ -1,0 +1,41 @@
+/* .tabs - Container for tab buttons */
+.tabs {
+    padding-top: 6vh;
+    padding-left: 40px;
+    display: flex;
+
+}
+
+/* .tabs button - Styling for the buttons inside the tabs */
+.tabs button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+
+/* .tabs button.active - Active tab button style */
+.tabs button.active {
+    background-color: #bfddff;
+    color: black;
+}
+
+.tabs button:hover {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-color: white;
+    box-shadow: none;
+}
+
+/* .tab-content - Content container for the selected tab */
+.tab-content {
+    margin-left: 7px;
+    padding: 20px;
+    border: 2px solid white;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}

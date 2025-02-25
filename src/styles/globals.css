@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'KronaOne';
+  src: url('./KronaOne-Regular.ttf') format('truetype');
+}
+
+body {
+  background: linear-gradient(to Left, #0e0448, #16213e, #1b2e62, #1a3262);
+  /*font-family: Arial, sans-serif;*/
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Container for the entire page */
+.container {
+  height: 100%;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+/* Main layout wrapper */
+.content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  /*position: absolute; THIS FUCKS WITH THINGS BUT STILL WANT RIGHT SIDE*/ 
+}
+
+/* Sidebar (Left Section) */
+.sidebar {
+  flex: 1;
+  height: 100%;
+  max-width: 350px;
+  padding-right: 40px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+}
+
+/* Main content area (Right Section) */
+.main-content {
+  position: relative;
+  flex: 2;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  list-style: solid;
+  width: 2px;
+  background-color: rgb(255, 255, 255);
+}
+
+.separator {
+  padding-left: 8px;
+}
+
+h4 {
+  padding-left: 7vh;
+}
+
+.timeline-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  position: relative; /* Prevents layout shift */
+  z-index: 1;
+}
+
+.resume-link:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05);
+  transform-origin: center center;
+}
+
+.resume-link h4 {
+  margin-right: 8px;
+}
+
+
+
+
+footer {
+  padding-top: 5vh;
+  font-size: 10px;
+  color: #BCC4D2;
+  text-align: end;
+}
+
+.univ {
+  width: 60%;
+}

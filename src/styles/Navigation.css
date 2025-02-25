@@ -1,0 +1,35 @@
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  padding-top: 40px;
+  position: relative; /* Prevents layout shift */
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #BCC4D2;
+  transition: all 0.3s ease;
+
+}
+
+  /* TO DO: Prevent layout shift */
+
+.nav-item a:hover {
+  color: #FFF57b;
+  font-size: 1.2rem;
+}
+
+.nav-item.active a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #FFF57b;
+
+}

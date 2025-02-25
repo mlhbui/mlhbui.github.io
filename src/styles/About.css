@@ -1,0 +1,31 @@
+.about {
+    padding-left: 7vh;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 5%;
+}
+.education {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 20px; /* Space between the icon and the text */
+  }
+  
+  .univ {
+    width: 60%;
+  } 
+  
+  .univ h3 {
+    margin: 0;
+  }
+  
+  .univ p {
+    margin-bottom: 5px;
+  }
+  
+  .univ ul {
+    padding-left: 20px;
+  }
+  

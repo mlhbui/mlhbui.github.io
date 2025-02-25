@@ -1,0 +1,58 @@
+.circle {
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+}
+
+.circle.right {
+  right: -7px;
+}
+
+.circle.left {
+  left: -7px;
+}
+
+.circle.solid {
+  background-color: white;
+}
+
+.circle.hollow {
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: inside;
+  background-color: transparent;
+  align-content: end;
+
+}
+
+.line {
+  height: 2px;
+  background-color: white;
+  position: relative;
+  align-items: center;
+}
+
+.circle.right {
+  right: -15px; 
+}
+
+/* Nav state */
+.nav-item.active .line {
+  background-color: #FFF57b; 
+  width: 150%;
+}
+
+.nav-item.active .circle {
+  background-color: #FFF57b; 
+}
+
+.nav-item .line {
+  background-color: #BCC4D2; 
+}
+
+.nav-item .circle {
+  background-color: #BCC4D2; 
+}

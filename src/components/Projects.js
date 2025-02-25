@@ -15,7 +15,7 @@ const Projects = () => {
         {
             category: "data Analysis",  
             role: "Data Visualizations - Lobbyist API",
-            duration: "2024",
+            duration: "2023",
             description: "Integrated multiple datasets on Chicago lobbyist contributions to visualize and analyze trends. Accessing JSON endpoints with Python, over +10 visual models were made for the identification of significant actions and political campaigns.",
             skill: ["Python", "Data Visualizations", "JSON", "Public Awareness"],
         },

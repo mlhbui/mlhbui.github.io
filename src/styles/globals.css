@@ -1,12 +1,19 @@
 @font-face {
   font-family: 'KronaOne';
-  src: url('./KronaOne-Regular.ttf') format('truetype');
+  src: url('../fonts/KronaOne-Regular.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
   background: linear-gradient(to Left, #0e0448, #16213e, #1b2e62, #1a3262);
   /*font-family: Arial, sans-serif;*/
-  font-family: sans-serif;
+  font-family: 'Montserrat';
+  font-weight: 500;
   margin: 0;
   padding: 0;
   color: white;
@@ -24,7 +31,7 @@ body {
   display: flex;
   max-width: 1200px;
   width: 100%;
-  /*position: absolute; THIS FUCKS WITH THINGS BUT STILL WANT RIGHT SIDE*/ 
+  /*position: absolute; THIS FUCKS WITH THINGS BUT STILL WANT RIGHT SIDE*/
 }
 
 /* Sidebar (Left Section) */
@@ -76,7 +83,8 @@ h4 {
   align-items: center;
   text-decoration: none;
   color: white;
-  position: relative; /* Prevents layout shift */
+  position: relative;
+  /* Prevents layout shift */
   z-index: 1;
 }
 
@@ -89,8 +97,6 @@ h4 {
 .resume-link h4 {
   margin-right: 8px;
 }
-
-
 
 
 footer {

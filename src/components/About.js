@@ -1,18 +1,22 @@
 import React from "react";
 import "../styles/About.css";
-import profileImage from "../img/profile.png"; // Import the image
-// import Image from 'next/image';
+// import profileImage from "../img/loyola.svg";
+
 
 const About = () => {
   return (
     <div className="about">
       <p className="subtitle">
-        Hi, I am a software developer currently located in Portland, OR.
+        Hi, I am a software developer based in Portland, OR.
         <br />
         <br />
-        I am an advocate for accessible design and a curated user experience.
-        I believe the intersection between technology and design is important to creating
-        reliable and engaging software.
+        Returning to the Pacific Northwest after recieving a B.S. degree from Loyola University Chicago, *TO DO*
+        With experience in applied projects and research, I seek to leverage emerging technologies to drive impactful solutions.
+        <br />
+        <br />
+        Specializing in web development and UI design.
+        I focus on building reliable and user-centric applications.
+
       </p>
       Interests:
       <ul>
@@ -20,21 +24,7 @@ const About = () => {
         <li> Software Architecture</li>
         <li> Machine Learning</li>
       </ul>
-      <h2>Education</h2>
-      <div className="education">
-        <div className="logo">
-    {/*      <Image src={profileImage} alt="profile photo" width={50} height={50} />*/}
-        </div>
-        <div className="univ">
-          <h3> Loyola University Chicago </h3>
-          <p> Software Engineering, Bachelor of Science </p>
-          <p> Minors and concentration in: </p>
-          <ul>
-            <li>Information Systems</li>
-            <li>Computer Crime & Forensics</li>
-          </ul>
-        </div>
-      </div>
+      <br/>
     </div>
   );
 };

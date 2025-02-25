@@ -7,21 +7,35 @@ const Projects = () => {
     const projectData = [
         {
             category: "development",  
-            role: "Software System - Taxi User Simulation",
+            role: "Software System - Object-Oriented Taxi Service",
             duration: "2022",
             description: "Java model of a transportation service following AGILE development and software architecture principles. Using an object-oriented approach, the system tracked 100s of different routes of users, taxis, and bikes with extensible features such as cancellation and shared rides affecting movement.",
             skill: ["Java", "AGILE Development", "Object-Oriented Design"],
         },
         {
+            category: "development",  
+            role: "Simulation - Exploring Traffic Algorithms",
+            duration: "2024",
+            description: "Utlizing Netlogo *ADD*.",
+            skill: ["Research", "Agent-Based Modeling"],
+        },
+        {
             category: "data Analysis",  
-            role: "Data Visualizations - Lobbyist API",
+            role: "Data Mining - Chicago Lobbyist API",
             duration: "2023",
             description: "Integrated multiple datasets on Chicago lobbyist contributions to visualize and analyze trends. Accessing JSON endpoints with Python, over +10 visual models were made for the identification of significant actions and political campaigns.",
             skill: ["Python", "Data Visualizations", "JSON", "Public Awareness"],
         },
         {
+            category: "data Analysis",  
+            role: "Data Visualizations - Survival Statistcs",
+            duration: "2024-25",
+            description: "*TO DO*",
+            skill: ["Python", "Data Visualizations", "Data Science"],
+        },
+        {
             category: "design", 
-            role: "UI/UX - Educational Website",
+            role: "UI/UX - Resdesign of *TO DO*",
             duration: "2024",
             description: "Designed the UI/UX for an updated platform with a focus on user experience, accessibility, and a mobile-first approach.",
             skill: ["UI/UX Design", "Figma", "Prototyping"],

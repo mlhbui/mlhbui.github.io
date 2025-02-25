@@ -14,10 +14,8 @@ import Navigation from "./components/Navigation.js";
 import Projects from "./components/Projects.js";
 
 
-//import externalLink from "@/app/img/externalLink.png"; // Import the image
-
 import "./styles/globals.css";
-
+import externalLink from './img/external-link.svg'; 
 
 export default function Home() {
   return (
@@ -50,8 +48,8 @@ export default function Home() {
               <div className="link-to">
                 <a href="/bui-resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
                   <h4>View Resume</h4>
-                 {/* <Image src={externalLink} alt="external link icon" width={20} height={20} /> */}
-                </a>
+                   <img src={externalLink} alt="external link icon" width="20" height="20" />
+                  </a>
               </div>
             </div>
           </section>

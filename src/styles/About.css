@@ -1,11 +1,12 @@
 .about {
     padding-left: 7vh;
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 5%;
+    color: #d8e7fb;
+    size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
 }
+
 .education {
-    display: flex;
     align-items: center;
   }
   

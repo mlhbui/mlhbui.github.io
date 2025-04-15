@@ -11,6 +11,7 @@
 
 .role {
   font-weight: bold;
+  text-shadow: #001842 1px 1px 2px;
 }
 
 .duration {
@@ -30,8 +31,7 @@
   margin-right: 8px;
   font-size: 12px;
   opacity: 90%;
-  
-}
+  }
 
 
 .skill:nth-child(1) {

@@ -7,16 +7,16 @@ const Projects = () => {
     const projectData = [
         {
             category: "development",  
-            role: "Software System - Object-Oriented Taxi Service",
+            role: "Software System - Taxi Service",
             duration: "2022",
-            description: "Java model of a transportation service following AGILE development and software architecture principles. Using an object-oriented approach, the system tracked 100s of different routes of users, taxis, and bikes with extensible features such as cancellation and shared rides affecting movement.",
+            description: "Java model of a transportation service following AGILE development and software architecture principles. Object-oriented design to ensure maintainability and performance with the system tracked different routes of users, taxis, and modes of transportation with different map requirements.",
             skill: ["Java", "AGILE Development", "Object-Oriented Design"],
         },
         {
             category: "development",  
             role: "Simulation - Exploring Traffic Algorithms",
             duration: "2024",
-            description: "Utlizing Netlogo *ADD*.",
+            description: "Utlizing Netlogo to analyze traffic algorithms and performance.",
             skill: ["Research", "Agent-Based Modeling"],
         },
         {
@@ -28,23 +28,23 @@ const Projects = () => {
         },
         {
             category: "data Analysis",  
-            role: "Data Visualizations - Survival Statistcs",
+            role: "Bioinformatics - Technical Support",
             duration: "2024-25",
-            description: "*TO DO*",
+            description: "Designed and implemented a small database to support research in biology and survival statistics. Over 20+ lineages collected for genomic research, and converted into graphical models ranging from specific individual statistics to comprehensive data analysis.",
             skill: ["Python", "Data Visualizations", "Data Science"],
         },
         {
             category: "design", 
-            role: "UI/UX - Resdesign of *TO DO*",
+            role: "User Interface Redesign - Educational Platform",
             duration: "2024",
-            description: "Designed the UI/UX for an updated platform with a focus on user experience, accessibility, and a mobile-first approach.",
+            description: "Designed the UI/UX for an updated platform with a focus on user experience, accessibility, and a mobile-first approach. Using Figma to enhance the design of an educational system, improving usability, maintainability, and functionality. Compared supporting research and other web platforms to define the user model and be consistent with HCI principles.",
             skill: ["UI/UX Design", "Figma", "Prototyping"],
         },
         {
             category: "development", 
             role: "Machine Learning with Python - EKG Analysis",
             duration: "2025",
-            description: "Machine learning model development to analyze EKG data to identify cardiovascular conditions like Arrythmia's",
+            description: "Machine learning model development to analyze EKG data to identify cardiovascular conditions. Using scikit-learn in Python for classification and analysis with performance of over 85% accuracy accross conditions.",
             skill: ["Machine Learning", "Python", "Scikit Learn", "PCA"]
         }
     ];

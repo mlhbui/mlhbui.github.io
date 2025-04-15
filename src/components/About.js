@@ -1,28 +1,34 @@
 import React from "react";
 import "../styles/About.css";
-// import profileImage from "../img/loyola.svg";
-
+import "../styles/globals.css";
 
 const About = () => {
   return (
     <div className="about">
-      <p className="subtitle">
-        Hi, I am a software developer based in Portland, OR.
+        <h3>Hello, I am a software engineer based in Portland, OR. </h3>
+        I focus on building reliable, scalable, and user-centric applications. 
+        With experience across the full software development lifecycle, I have designed and deployed systems using React, Node.js, and Python within Agile teams.
         <br />
         <br />
-        Returning to the Pacific Northwest after recieving a B.S. degree from Loyola University Chicago, *TO DO*
-        With experience in applied projects and research, I seek to leverage emerging technologies to drive impactful solutions.
-        <br />
-        <br />
-        Specializing in web development and UI design.
-        I focus on building reliable and user-centric applications.
+        In my recent role with the BullyBlocker Project, I led the development of intuitive user interfaces to identify postive design patterns and mitigate online harassment.         
+        I'm particularly passionate about accessible design and the potential for emerging technologies like AI/ML to drive innovation. 
 
-      </p>
-      Interests:
+        <br />
+        <br />
+        I’m eager to apply my skills to projects that prioritize ethical technology and inclusivity. 
+        Beyond coding, I enjoy traveling, reading, and exploring hiking trails in the PNW.
+        <br />
+        <br />
+        Let’s connect! Explore my portfolio or reach me through LinkedIn!
+        <br />
+        <br />
+        - Marissa
+        <br />
+      <h3>Related Interests: </h3>
       <ul>
-        <li> Accessible Web Design</li>
+        <li> Accessible Design</li>
         <li> Software Architecture</li>
-        <li> Machine Learning</li>
+        <li> Deep Learning</li>
       </ul>
       <br/>
     </div>

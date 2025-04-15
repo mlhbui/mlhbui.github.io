@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.58e88c1f.css",
-    "main.js": "/gh-pages/static/js/main.4a810f5a.js",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/gh-pages/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
-    "static/media/KronaOne-Regular.ttf": "/gh-pages/static/media/KronaOne-Regular.220d0c4cbca084bef84e.ttf",
-    "index.html": "/gh-pages/index.html",
-    "main.58e88c1f.css.map": "/gh-pages/static/css/main.58e88c1f.css.map",
-    "main.4a810f5a.js.map": "/gh-pages/static/js/main.4a810f5a.js.map"
+    "main.css": "/mlhbui/mlhbui.github.io.git/static/css/main.5051f64e.css",
+    "main.js": "/mlhbui/mlhbui.github.io.git/static/js/main.4a810f5a.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/mlhbui/mlhbui.github.io.git/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
+    "static/media/KronaOne-Regular.ttf": "/mlhbui/mlhbui.github.io.git/static/media/KronaOne-Regular.220d0c4cbca084bef84e.ttf",
+    "index.html": "/mlhbui/mlhbui.github.io.git/index.html",
+    "main.5051f64e.css.map": "/mlhbui/mlhbui.github.io.git/static/css/main.5051f64e.css.map",
+    "main.4a810f5a.js.map": "/mlhbui/mlhbui.github.io.git/static/js/main.4a810f5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.58e88c1f.css",
+    "static/css/main.5051f64e.css",
     "static/js/main.4a810f5a.js"
   ]
 }

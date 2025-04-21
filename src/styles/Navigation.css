@@ -15,19 +15,40 @@ nav ul {
 .nav-item a {
   text-decoration: none;
   font-size: 1.1rem;
-  color: #BCC4D2;
+  color: #d8e7fb;
   transition: all 0.3s ease;
 
 }
 
 .nav-item a:hover {
-  color: #FFF57b;
+  color: #FECC51;
   font-size: 1.2rem;
+  text-shadow: #214993 1px 1px 2px;
+  font-weight: bold;
 }
 
 .nav-item.active a {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #FFF57b;
+  text-shadow: #214993 1px 1px 2px;
+  color: #FECC51;
+}
 
+
+/* Nav state */
+.nav-item.active .line {
+  background-color: #FECC51; 
+  width: 150%;
+}
+
+.nav-item.active .circle {
+  background-color: #FECC51; 
+}
+
+.nav-item .line {
+  background-color: #BCC4D2; 
+}
+
+.nav-item .circle {
+  background-color: #BCC4D2; 
 }

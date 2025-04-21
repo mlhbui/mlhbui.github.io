@@ -38,21 +38,3 @@
 .circle.right {
   right: -15px; 
 }
-
-/* Nav state */
-.nav-item.active .line {
-  background-color: #FFF57b; 
-  width: 150%;
-}
-
-.nav-item.active .circle {
-  background-color: #FFF57b; 
-}
-
-.nav-item .line {
-  background-color: #BCC4D2; 
-}
-
-.nav-item .circle {
-  background-color: #BCC4D2; 
-}

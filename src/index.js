@@ -8,9 +8,7 @@ import LineWithCircle from './components/LineWithCircle.js';
 import MouseFollower from "./components/MouseFollower.js";
 import Navigation from "./components/Navigation.js";
 import Projects from "./components/Projects.js";
-
-//import externalLink from "@/app/img/externalLink.png"; // Import the image
-
+import externalLink from './img/external-link.svg'
 import "./styles/globals.css";
 
 
@@ -45,7 +43,7 @@ export default function App() {
               <div className="link-to">
                 <a href="/bui-resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
                   <h4>View Resume</h4>
-                 {/* <Image src={externalLink} alt="external link icon" width={20} height={20} /> */}
+                 <img src={externalLink} alt="external link icon" width={20} height={20} />
                 </a>
               </div>
             </div>

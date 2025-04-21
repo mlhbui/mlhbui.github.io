@@ -22,18 +22,13 @@
 }
 
 .tabs button.active {
-    background-color: #FECC51;
+    background-color: rgb(254, 205, 82);
     color: black;
-
 }
 
 .tabs button:hover {
-    border-color: #FECC51;
-    color:white;
     box-shadow: none;
-
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    background-color: rgba(159, 159, 40, 0.41);
 }
 
 .tab-content {

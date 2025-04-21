@@ -54,8 +54,9 @@
   padding: 5px 10px;
   border-radius: 5px;
   margin-right: 8px;
-  font-size: 12px;
-  opacity: 90%;
+  font-size: 12px;  
+  box-shadow: 0px 0px 3px 0px rgba(252,175,51,0.56);
+
 }
 
 

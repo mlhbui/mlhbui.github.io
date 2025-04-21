@@ -46,7 +46,7 @@ const timelineData = [
     highlightedWords: ['webs'],
   },
   {
-    role: "Web Developer | Phoenix News",
+    role: "Web Developer",
     institution: "Phoenix News",
     duration: "May 2024 - Present",
     description: "Optimizing SEO and analytics to enhance the user experience, leading to a 40% increase in activity in 6 months. Design 4+ multimedia options for online engagement, incorporating video and audio formats. Collaborating with the business manager to boost ad revenue by 83% through web integration and promotional efforts. Achieve a 10% increase in newsletter sign-ups within the first month of implementation by integrating MailChimp API.",
